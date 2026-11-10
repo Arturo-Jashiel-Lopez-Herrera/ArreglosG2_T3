@@ -28,6 +28,16 @@ public class Program
             Console.WriteLine(verPares);
 
 
+            Console.ReadKey();
+            Console.WriteLine("\nPrimos\n");
+            var verPrimos = oMiArreglo.ObtenerPrimos();
+            Console.WriteLine(verPrimos);
+
+           
+            Console.WriteLine("\nPrimos ordenados\n");
+            verPrimos.Ordenar();
+            Console.WriteLine(verPrimos);
+
             /*oMiArreglo.Agregar(10);
             oMiArreglo.Agregar(5);
             oMiArreglo.Agregar(-4);
